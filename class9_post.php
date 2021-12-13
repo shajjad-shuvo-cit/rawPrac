@@ -1,16 +1,9 @@
 <?php
     session_start();
+    require_once('db.php');
      //print_r($_POST);
 
-    //dbinfo;
-
-    $db_host = "localhost";
-    $db_user = "root";
-    $db_password = "";
-    $db_name = "raw_prac";
-
-    //db connect;
-    $db_connect = mysqli_connect($db_host,$db_user,$db_password,$db_name);
+   
 
     //get data from html form;
     // $user_name = $_POST['user_name'];
